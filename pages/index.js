@@ -864,7 +864,7 @@ const getImage = async (name) => {
 
 
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   
   console.time("start");
   const date = new Date();
